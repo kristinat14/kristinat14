@@ -15,11 +15,3 @@ hamster.addEventListener('click',() => { score++;
 
 
 
-button.addEventListener('click',() => { 
-
-    many++;
-    manyDisplay.textContent = `Счет: ${many}`;
-
-    
-    });
-    
