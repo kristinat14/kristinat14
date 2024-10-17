@@ -8,10 +8,18 @@ const scoreDisplay = document.getElementById('score');
 const manyDisplay = document.getElementById('manu');
 
 hamster.addEventListener('click',() => { score++;
-
+    scoreDisplay.textContent = `Счет: ${score}`;
 
 
 });
 
 
 
+button.addEventListener('click',() => { 
+
+    many++;
+    manyDisplay.textContent = `Счет: ${many}`;
+
+    
+    });
+    
